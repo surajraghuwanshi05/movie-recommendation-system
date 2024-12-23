@@ -1,0 +1,6 @@
+pickel
+streamlit 
+pandas
+numpy 
+seaborn
+matplotlib
