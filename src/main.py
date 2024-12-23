@@ -1,12 +1,13 @@
 import pickle
 import streamlit as st
 import requests
+from config.config import KEY
 
 
 
 # Function to fetch movie poster from TMDB API
 
-API_KEY = '8c8636e0'  # use your api key 
+API_KEY = KEY  # use your api key 
 def fetch_poster(movie_title):
     url = f"http://www.omdbapi.com/?t={movie_title}&apikey={API_KEY}"
     response = requests.get(url)
