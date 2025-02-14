@@ -31,7 +31,7 @@ Make sure you have the following installed on your system:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 # Movie Recommendation System
 
